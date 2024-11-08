@@ -3145,7 +3145,7 @@ input, select, textarea {
 			}
 
 				#header.alt {
-					padding: 5em 3em 2em 3em ;
+					padding: 2em 2em 2em 2em ;
 				}
 
 		}
@@ -3166,7 +3166,7 @@ input, select, textarea {
 					}
 
 				#header.alt {
-					padding: 4em 2em 1em 2em ;
+					padding: 2em 2em 1em 2em ;
 				}
 
 					#header.alt h1 {
@@ -3221,7 +3221,7 @@ input, select, textarea {
 		color: #636363;
 		position: absolute;
 		width: 64em;
-		max-width: calc(100% - 4em);
+		max-width: calc(100% - 2em);
 		padding: 1em;
 		background-color: #f7f7f7;
 		border-top-left-radius: 0.25em;
@@ -3321,11 +3321,17 @@ input, select, textarea {
 					font-size: 0.9em;
 				}
 
+
+		/*Very important; the navigation for mobile! */
 		@media screen and (max-width: 736px) {
 
 			#nav {
-				display: none;
+				/*display: none*/ ;
+				overflow: auto;
+				white-space: nowrap;
+				max-width: calc(100% - 2em);
 			}
+
 
 				#nav + #main {
 					padding-top: 0;
