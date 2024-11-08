@@ -527,7 +527,8 @@ input, select, textarea {
 
 		.row {
 			margin-top: 0;
-			margin-left: -1.5em;
+			margin-left: 0;
+			/*margin-left: -1.5em;*/
 		}
 
 			.row > * {
@@ -3642,7 +3643,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#main > .main {
-				padding: 3em 2em 1em 2em ;
+				padding: 5em 2em 1em 2em ;
 			}
 
 				#main > .main > .image.main:first-child {
