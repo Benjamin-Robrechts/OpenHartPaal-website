@@ -3330,7 +3330,7 @@ input, select, textarea {
 				/*display: none*/ ;
 				overflow: auto;
 				white-space: nowrap;
-				max-width: calc(100% - 0em);
+				/*max-width: calc(100% - 0em);*/
 			}
 
 
