@@ -3330,7 +3330,7 @@ input, select, textarea {
 				/*display: none*/ ;
 				overflow: auto;
 				white-space: nowrap;
-				max-width: calc(100% - 2em);
+				max-width: calc(100% - 0em);
 			}
 
 
@@ -3673,7 +3673,7 @@ input, select, textarea {
 			}
 
 				#main > .main {
-					padding: 2.5em 1em 0.5em 1em ;
+					padding: 5em 1em 0.5em 1em ;
 				}
 
 					#main > .main > .image.main:first-child {
