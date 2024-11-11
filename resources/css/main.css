@@ -2319,6 +2319,9 @@ input[type="radio"]:focus + label:before {
     color: #f1bc40;
 }
 
+.icon.style7 {
+    color: #f14040;
+}
 
 @media screen and (max-width: 1680px) {
 
