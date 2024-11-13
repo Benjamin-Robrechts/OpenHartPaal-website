@@ -135,6 +135,37 @@ body, input, select, textarea {
     line-height: 1.65;
 }
 
+
+/* sponsor logos*/
+.sponsorImage {
+    width: 90%;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 650px) {
+
+    .sponsorImage {
+        width: 60%;
+        overflow: hidden;
+        margin-top: 3em;
+    }
+}
+
+.sponsorAlignContainer {
+    display: flex;
+    justify-content: center; /* Align horizontally */
+    align-items: center;     /* Align vertically */
+    height:100%;
+    margin-top: 1em;
+}
+
+
+.sponsorAlignContainer a {
+    display:block;
+    border:none;
+}
+
+
 @media screen and (max-width: 1680px) {
 
     body, input, select, textarea {
@@ -579,7 +610,7 @@ hr {
     padding-top: 3em;
 }
 
-@media screen and (max-width: 1680px) {
+@media screen and (max-width: 3000px) {
 
     .row {
         display: flex;
