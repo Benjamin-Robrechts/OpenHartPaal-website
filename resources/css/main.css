@@ -3225,7 +3225,7 @@ table.alt tbody tr td {
     }
 
     #header.alt {
-        padding: 4em 1.5em 1em 1.5em;
+        padding: 2em 1.5em 1em 1.5em;
     }
 
 }
@@ -3264,7 +3264,7 @@ body.is-preload #header.alt .logo {
     color: #636363;
     position: absolute;
     width: 64em;
-    max-width: calc(100% - 2em);
+    max-width: calc(100% - 0em);
     padding: 1em;
     background-color: #f7f7f7;
     border-top-left-radius: 0.25em;
