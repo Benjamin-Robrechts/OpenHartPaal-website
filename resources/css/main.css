@@ -136,6 +136,13 @@ body, input, select, textarea {
 }
 
 
+/* embedded youtube links */
+#reportage_vrt iframe {
+    width: 100%;
+    height: 600px;
+    margin: auto;
+}
+
 /* sponsor logos*/
 .sponsorImage {
     width: 90%;
