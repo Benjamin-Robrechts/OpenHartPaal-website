@@ -136,6 +136,12 @@ body, input, select, textarea {
 }
 
 
+/* Carousel text */
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.75);
+    padding: 4px 8px;
+    color: white;
+}
 /* embedded youtube links */
 #reportage_vrt iframe {
     width: 100%;
