@@ -135,6 +135,40 @@ body, input, select, textarea {
     line-height: 1.65;
 }
 
+/* contact */
+#contactinfo {
+   background-color: lightgray;
+    border-radius: 15px;
+    max-width: 60%;
+
+}
+#contactinfo p {
+  padding-left:1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color:black;
+}
+/*openingsuren*/
+#openingsuren_hulpbehoevenden{
+
+        background-color: lightblue;
+        border-radius: 25px;
+        padding-left:1em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        color:black;
+
+}
+
+#openingsuren_schenkingen{
+    background-color: lightyellow;
+    border-radius: 25px;
+    padding-left:1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color:black;
+}
+
 /*openingsdagen */
 table .openingsdagen
 {
@@ -288,7 +322,10 @@ h6 {
     h1 {
         font-size: 2em;
     }
-
+    #contactinfo {
+        max-width: 100%;
+        text-align: left;
+    }
 }
 
 sub {
@@ -2999,6 +3036,10 @@ table.alt tbody tr td {
         font-size: 1.5em;
     }
 
+    #contactinfo {
+        max-width: 100%;
+        text-align: left;
+    }
 }
 
 @media screen and (max-width: 736px) {
