@@ -2366,6 +2366,17 @@ input[type="radio"]:focus + label:before {
     text-align: center;
 }
 
+.icon.smaller:before {
+    display: inline-block;
+    font-size: 4rem;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+    border-radius: 100%;
+    border: solid 1px;
+    text-align: center;
+}
+
 .icon.alt {
     display: inline-block;
     border: solid 1px;
