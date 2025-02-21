@@ -11,3 +11,13 @@ There was a deliberate choice to keep things as simple as possible, opting for a
 - Stellar by HTML5 UP
 - Lightbox2
 - Timeline html library
+
+## Thumbnails
+Thumbnails were generated using imagemagick. To force Aspect ratio:
+```
+magick Open_Hart_13.jpg -resize 318x318^ -gravity center -crop 318x318+0+0 +repage Open_Hart_13_thumbnail.jpg
+```
+Otherwise just resize it down.
+```
+magick a.jpg -resize 318x318 a_thumbnail.jpg
+```
