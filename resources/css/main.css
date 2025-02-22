@@ -3842,14 +3842,14 @@ body.is-preload #header.alt .logo {
     #footer {
         padding: 4em 3em 2em 3em;
         display: block;
-        margin: 0 0 3em 0;
+        margin: 0 0 0em 0;
         width: 100%;
     }
 
     #footer > * {
         width: 100%;
         margin-left: 0;
-        margin-bottom: 3em;
+        margin-bottom: 0em;
     }
 
     #footer .copyright {
@@ -3861,7 +3861,7 @@ body.is-preload #header.alt .logo {
 @media screen and (max-width: 736px) {
 
     #footer {
-        padding: 3em 2em 1em 2em;
+        padding: 3em 2em 0em 2em;
     }
 
 }
@@ -3869,7 +3869,7 @@ body.is-preload #header.alt .logo {
 @media screen and (max-width: 480px) {
 
     #footer {
-        padding: 3em 1.5em 1em 1.5em;
+        padding: 3em 1.5em 0em 1.5em;
     }
 
 }
@@ -3877,7 +3877,7 @@ body.is-preload #header.alt .logo {
 @media screen and (max-width: 480px) {
 
     #footer {
-        padding: 2.5em 1em 0.5em 1em;
+        padding: 2.5em 1em 0em 1em;
     }
 
 }
