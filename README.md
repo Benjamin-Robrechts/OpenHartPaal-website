@@ -45,3 +45,14 @@ for IMAGE in Open_Hart*.jpg; do
   fi
 done
 ```
+
+## Yearly pop-up message (Contact page)
+
+Each year OpenHart closes around Christmas, an automated, configurable popup was added for this reason in the contact page.
+The configuration happens in sluiting_kerstmis_popup.json
+CSS is set in resoures/css/popup.css
+JS rescources/js/popup_christmas.js
+
+
+Now it is important each year to update the the message in sluiting_kerstmis_popup.json or it will re-appear with an outdated message.
+

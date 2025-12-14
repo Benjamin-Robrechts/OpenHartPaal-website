@@ -1,0 +1,104 @@
+/* ===== Overlay ===== */
+.overlay {
+    position: fixed;
+    inset: 0;
+
+    display: flex;
+    align-items: center;       /* vertical centering */
+    justify-content: center;   /* horizontal centering */
+
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 10000;
+
+    pointer-events: auto;
+}
+
+/* ===== Popup container ===== */
+.popup-content {
+    background: #ffffff !important;
+    color: #000000 !important;
+    padding: 32px 36px !important;
+    border-radius: 12px !important;
+
+    max-width: 420px;
+    width: 90%;
+
+    text-align: center !important;
+    font-family: Arial, sans-serif !important;
+    font-size: 18px !important;
+    line-height: 1.4 !important;
+
+    box-shadow: 0 25px 50px rgba(0,0,0,0.4) !important;
+
+    display: flex;
+    flex-direction: column;     /* stack content vertically */
+    align-items: center;        /* horizontal center */
+    justify-content: center;    /* vertical center inside popup */
+}
+
+.popup-content {
+
+
+}
+
+
+/* ===== Message text ===== */
+#christmas-overlay .popup-content p {
+    margin: 0 0 24px !important;
+    color: #000000 !important;
+    font-size: 18px !important;
+    line-height: 1.4 !important;
+    text-align: center !important;
+}
+
+/* ===== Button ===== */
+#christmas-overlay .popup-content button {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    padding: 10px 24px !important;
+    min-height: 50px !important;
+
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    font-family: Arial, sans-serif !important;
+    line-height: 1 !important;
+
+    border: none !important;
+    border-radius: 6px !important;
+
+    background: #c62828 !important;
+    color: #ffffff !important;
+
+    cursor: pointer !important;
+}
+
+#christmas-overlay #close-popup-btn {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    padding: 10px 24px !important;
+    min-height: 60px !important;
+
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    font-family: Arial, sans-serif !important;
+    line-height: 1 !important;
+
+    border: none !important;
+    border-radius: 6px !important;
+
+    background: #c62828 !important;
+    color: #ffffff !important;
+
+    cursor: pointer !important;
+}
+
+
+
+/* ===== Hidden state ===== */
+.hidden {
+    display: none !important;
+}

@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="resources/css/noscript.css"/>
     </noscript>
     <link rel="icon" type="image/x-icon" href="resources/images/favicon.ico">
-
+    <link rel="stylesheet" href="resources/css/popup.css">
 </head>
 <body class="is-preload">
 
@@ -37,6 +37,14 @@
 
     <!-- Main -->
     <div id="main">
+
+        <div id="christmas-overlay" class="overlay hidden">
+            <div class="popup-content">
+                <p id="popup-message"></p>
+
+                <button id="close-popup-btn">Sluiten</button>
+            </div>
+        </div>
 
         <!-- Introduction -->
         <section id="contact" class="main">
@@ -237,6 +245,7 @@
 <script src="resources/js/breakpoints.min.js"></script>
 <script src="resources/js/util.js"></script>
 <script src="resources/js/main.js"></script>
+<script src="resources/js/popup_christmas.js"></script>
 
 </body>
 </html>
