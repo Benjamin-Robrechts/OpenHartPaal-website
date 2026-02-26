@@ -206,12 +206,20 @@ table .openingsdagen
     overflow: hidden;
 }
 
+a .sponsorImage.carglass {
+    width: 600px;
+}
+
 @media screen and (max-width: 650px) {
 
     .sponsorImage {
         width: 60%;
         overflow: hidden;
         margin-top: 3em;
+    }
+
+    a .sponsorImage.carglass {
+        width: 300px;
     }
 }
 
