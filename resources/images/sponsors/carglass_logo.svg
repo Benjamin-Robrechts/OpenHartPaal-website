@@ -6,8 +6,8 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    viewBox="0 0 232.33665 61.922529"
-   height="61.922531"
-   width="232.33665"
+   height="300"
+   width="800"
    xml:space="preserve"
    id="svg2"
    version="1.1"><metadata
@@ -27,7 +27,7 @@
        clipPathUnits="userSpaceOnUse"><path
          id="path46-9"
          d="M 382.33,37.984 H 556.583 V 84.426 H 382.33 Z" /></clipPath></defs><g
-     transform="matrix(1.3333333,0,0,-1.3333333,-514.98088,361.67006)"
+     transform="matrix(1.3333333,0,0,-1.3333333,-514.98088,361.67006    )"
      id="g10"><g
        id="g42"
        transform="translate(3.9053686,186.82655)"><g

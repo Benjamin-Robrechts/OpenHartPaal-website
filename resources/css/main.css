@@ -206,9 +206,6 @@ table .openingsdagen
     overflow: hidden;
 }
 
-a .sponsorImage.carglass {
-    width: 600px;
-}
 
 @media screen and (max-width: 650px) {
 
@@ -218,9 +215,6 @@ a .sponsorImage.carglass {
         margin-top: 3em;
     }
 
-    a .sponsorImage.carglass {
-        width: 300px;
-    }
 }
 
 .sponsorAlignContainer {
@@ -228,7 +222,8 @@ a .sponsorImage.carglass {
     justify-content: center; /* Align horizontally */
     align-items: center;     /* Align vertically */
     height:100%;
-    margin-top: 1em;
+    margin-top: 50px;
+
 }
 
 
