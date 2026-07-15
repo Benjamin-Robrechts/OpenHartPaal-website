@@ -46,13 +46,18 @@ for IMAGE in Open_Hart*.jpg; do
 done
 ```
 
-## Yearly pop-up message (Contact page)
+## Yearly pop-up message (Home & Contact page)
 
-Each year OpenHart closes around Christmas, an automated, configurable popup was added for this reason in the contact page.
-The configuration happens in sluiting_kerstmis_popup.json
-CSS is set in resoures/css/popup.css
-JS rescources/js/popup_christmas.js
+Each year OpenHart closes around Christmas and during the summer holiday, an automated, configurable popup was added for this reason on the home and contact page.
+The configuration happens in resources/sluitingen_popup.json, which contains a list of closure periods. Each period has:
+- `enabled`: set to `false` to turn that message off
+- `startDate` / `endDate` (`MM-DD`): the window during which the popup is shown. This can start before the actual closure to announce it in advance, and may wrap over new year (e.g. `11-05` to `01-04`)
+- `message`: the text shown in the popup
 
+CSS is set in resources/css/popup.css
+JS in resources/js/popup_sluiting.js
 
-Now it is important each year to update the the message in sluiting_kerstmis_popup.json or it will re-appear with an outdated message.
+Once dismissed, the popup stays hidden for the rest of the browser session.
+
+Now it is important each year to update the messages in resources/sluitingen_popup.json or they will re-appear with an outdated message.
 
