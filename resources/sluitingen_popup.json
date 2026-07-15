@@ -1,0 +1,18 @@
+{
+  "sluitingen": [
+    {
+      "naam": "zomer",
+      "enabled": true,
+      "startDate": "07-01",
+      "endDate": "08-16",
+      "message": "☀️ OpenHart is gesloten van 20 Juli tot 16 Augustus ☀️"
+    },
+    {
+      "naam": "kerstmis",
+      "enabled": true,
+      "startDate": "11-05",
+      "endDate": "01-04",
+      "message": "🎄 OpenHart is gesloten van 22 December 2025 tot 4 Januari 2026 🎄"
+    }
+  ]
+}

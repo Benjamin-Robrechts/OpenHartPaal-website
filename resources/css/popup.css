@@ -20,7 +20,7 @@
     padding: 32px 36px !important;
     border-radius: 12px !important;
 
-    max-width: 420px;
+    max-width: 580px;
     width: 90%;
 
     text-align: center !important;
@@ -36,15 +36,11 @@
     justify-content: center;    /* vertical center inside popup */
 }
 
-.popup-content {
-
-
-}
-
-
 /* ===== Message text ===== */
-#christmas-overlay .popup-content p {
+#sluiting-overlay .popup-content p,
+#popup-message {
     margin: 0 0 24px !important;
+    width: 100% !important;
     color: #000000 !important;
     font-size: 18px !important;
     line-height: 1.4 !important;
@@ -52,29 +48,7 @@
 }
 
 /* ===== Button ===== */
-#christmas-overlay .popup-content button {
-    display: inline-flex !important;
-    align-items: center !important;
-    justify-content: center !important;
-
-    padding: 10px 24px !important;
-    min-height: 50px !important;
-
-    font-size: 18px !important;
-    font-weight: 600 !important;
-    font-family: Arial, sans-serif !important;
-    line-height: 1 !important;
-
-    border: none !important;
-    border-radius: 6px !important;
-
-    background: #c62828 !important;
-    color: #ffffff !important;
-
-    cursor: pointer !important;
-}
-
-#christmas-overlay #close-popup-btn {
+#sluiting-overlay #close-popup-btn {
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
