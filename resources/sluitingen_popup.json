@@ -13,6 +13,13 @@
       "startDate": "11-05",
       "endDate": "01-04",
       "message": "🎄 OpenHart is gesloten van 22 December 2025 tot 4 Januari 2026 🎄"
+    },
+    {
+      "naam": "fietsen_13okt2026",
+      "enabled": true,
+      "startDate": "09-28",
+      "endDate": "10-13",
+      "message": "🚲 De afdeling fietsen van OpenHart-Paal is dinsdag 13 oktober 2026 uitzonderlijk niet open voor de doelgroep. Andere maandagen en dinsdagen is de werkplaats gewoon open van 13u00 tot 16u00. 🚲"
     }
   ]
 }
