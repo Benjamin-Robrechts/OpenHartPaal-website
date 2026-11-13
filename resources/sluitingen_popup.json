@@ -9,7 +9,7 @@
     },
     {
       "naam": "kerstmis",
-      "enabled": true,
+      "enabled": false,
       "startDate": "11-05",
       "endDate": "01-04",
       "message": "🎄 OpenHart is gesloten van 22 December 2025 tot 4 Januari 2026 🎄"
